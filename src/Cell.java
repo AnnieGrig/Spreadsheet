@@ -10,7 +10,7 @@ public class Cell {
 
     public Cell() {
 
-        this.value = null;
+        this.value = "";
         this.color = Color.WHITE;
         this.type = Type.STRING;
     }
@@ -49,7 +49,8 @@ public class Cell {
     }
 
         public void reset () {
-            this.value = null;
+            this.value = "";
             this.color = Color.WHITE;
+            this.type = Type.STRING;
         }
     }
